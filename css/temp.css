@@ -19,6 +19,12 @@ width: 90%;
      padding: 40px 35px; 
      text-align: center;
 }
+@media (max-width:678px) {
+    .card{
+        width: 100%;
+    }
+}
+
 .search {
     width: 100%;
     display: flex;
@@ -84,6 +90,12 @@ margin-top: 50px;
     width: 40px;
     margin-right: 15px;
 }
+@media (max-width:678px) {
+    .col img{
+        width: 30px;
+    }
+}
+
 .humidity,
 .wind{
     font-size: 28px;
